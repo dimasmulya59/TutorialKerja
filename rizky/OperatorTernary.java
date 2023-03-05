@@ -18,14 +18,20 @@ public class OperatorTernary {
         System.out.println("========================");
 
         // Contoh 2
-        Scanner Rdk = new Scanner(System.in);
+        Scanner rdk = new Scanner(System.in);
         int umur;
-        String status;
+        String nama, alamat, status;
 
-        System.out.println("Masukan umur anda = ");
-        umur = Rdk.nextInt();
+        System.out.println("Masukan Nama Anda = ");
+        nama = rdk.nextLine();
+        System.out.println("Masukan Alamat Anda = ");
+        alamat = rdk.nextLine();
+        System.out.println("Masukan Umur Anda = ");
+        umur = rdk.nextInt();
 
         status = (umur >= 25) ? ("Sudah Siap Menikah") : ("Belum Siap Menikah");
+        System.out.println("Nama Anda = " + nama);
+        System.out.println("Alamat Anda = " + alamat);
         System.out.println("Umur Pria / Wanita = " + umur + " Tahun ");
         System.out.println("ketentuanMenikah = " + status);
     }

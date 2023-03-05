@@ -9,18 +9,18 @@ public class OperatorPenugasan {
 
         int b = 10;
         b -= 5;
-        System.out.println("nilai a = " + b);
+        System.out.println("nilai b = " + b);
 
         int c = 1;
         c *= 5;
-        System.out.println("nilai a = " + c);
+        System.out.println("nilai c = " + c);
 
         int d = 10;
         d /= 5;
-        System.out.println("nilai a = " + d);
+        System.out.println("nilai d = " + d);
 
         int e = 10;
         e %= 5;
-        System.out.println("nilai a = " + e);
+        System.out.println("nilai e = " + e);
     }
 }
