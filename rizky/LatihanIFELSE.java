@@ -13,9 +13,9 @@ public class LatihanIFELSE {
         i = rd.nextInt();
 
         if (i <= 10) {
-            System.out.println("Lulus");
+            System.out.println("Anda Lulus");
         } else {
-            System.out.println("Tidak lulus");
+            System.out.println("Anda Tidak Lulus");
         }
 
     }
