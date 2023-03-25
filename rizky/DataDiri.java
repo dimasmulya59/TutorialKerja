@@ -17,6 +17,6 @@ public class DataDiri {
         System.out.println("HOBI ANDA   = " + hobi);
         System.out.println("Kuliah = " + kuliah);
         System.out.println("UMUR ANDA   = " + umur + " Tahun ");
-        System.out.println("TINGGI ANDA = " + tinggi + " Cm ");
+        System.out.println("TINGGI ANDA = " + tinggi + " Cm ");//
     }
 }
